@@ -9,8 +9,8 @@ console.log(os.version());
 
 const { readFile, unlink } = require("fs");
 
-const buff = Buffer.alloc(15);
+const buff = Buffer.alloc(12);
+buff.write("abcdefghijklmnopqrstuvwxyz");
 const buffi = buff.toString();
 
 console.log(buffi);
-
