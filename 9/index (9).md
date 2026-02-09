@@ -65,3 +65,4 @@ Q. create a server and handle query params from the request on following url i.e
   - differentiate between `req.url` and `parsedUrl.pathname`
   - grab the email from query params
   - return json response with email from query params
+  
