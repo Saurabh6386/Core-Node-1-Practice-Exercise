@@ -24,10 +24,10 @@ Application
 1. create seperate routes for seperate html templates to render
 for example:- 
   - "/" -> render `index.html`
-  - "/about" -> render `about.html`
+  - "/about" -> render `about.html` 
 
 2. handle requests for all css files in a single seperate router
-for example:- 
+for example:-
 
 ```js
 // check for css requests using url
@@ -43,6 +43,6 @@ if(req.url.split('.').pop() === 'css') {
 ```
 
 3. handle request for all images in a seperate single router.
- - follow the steps for handling css 
+ - follow the steps for handling css
 
 4. handle request for javascripts(if any) in simialar fashion as above.
